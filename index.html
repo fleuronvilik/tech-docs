@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fourth Responsive Web Destign Project">
+    <title>Tech Docs</title>
+    <style>
+      pre {border: 1px solid black;}
+      @media (min-width: 992px) {
+        body {
+          display: grid;
+          grid-template-columns: 300px 1fr;
+          grid-column-gap: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--
+    <h1>An introduction to coding for beginners</h1>
+    <h2>With JavaScript</h2>
+    -->
+      <nav id="navbar">
+        <header><h1>An introduction to coding for beginners</h1></header>
+        <a class="nav-link" href="#Introduction">INTRODUCTION</a>
+        <a class="nav-link" href="#Variables">VARIABLES</a>
+        <a class="nav-link" href="#Arrays">ARRAYS
+        <a class="nav-link" href="#If_Statements">IF STATEMENTS</a>
+        <a class="nav-link" href="#Operators">OPERATORS</a>
+        <a class="nav-link" href="#Loops">LOOPS</a>
+        <a class="nav-link" href="#Objects">OBJECTS</a>
+      </nav>
+      <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header><h3>INTRODUCTION<h3></header>
+        <p>What is code ? What is coding ? What can JS do ? How we communicate
+        with computer, Writing instructions for a computer to follow, JS can
+        create website, analyse data, animate shape and create applications.</p>
+      </section>
+
+      <section id="Variables" class="main-section">
+        <header><h3>VARIABLES</h3></header>
+        <p>Variables are very common in coding. They allow you to reference the same piece of information multiple times. In JavaScript variables can be defined using <code>var</code> then giving the variable a unique name. For example, <code>var myVariable = 'my example'</code>.</p>
+        <pre>
+          <code>
+            var myExample;
+            myExample = 'I created a variable';
+            print(myExample);
+            myExample = 'I changed the value';
+            print(myExample);
+          </code>
+        </pre>
+      </section>
+
+      <section id="Arrays" class="main-section">
+        <header><h3>ARRAYS</h3></header>
+        <ol>
+          <li>Created an Array</li>
+          <li>Used Array Indexing</li>
+        </ol>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus libero urna, in rutrum sapien pulvinar at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis accumsan sagittis. Ut quis metus vitae tellus tempus varius eu at nisl. Morbi eget magna scelerisque, eleifend sapien sed, ultrices mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent libero purus, facilisis eget efficitur eu, hendrerit vel erat. Etiam accumsan purus ligula, sed laoreet purus aliquam et. Donec semper hendrerit sapien, et malesuada augue finibus eget.</p>
+        </p> Donec massa dolor, egestas vitae dui non, congue condimentum purus. Mauris hendrerit ut metus a fermentum. Sed congue, arcu at congue pharetra, odio libero volutpat purus, quis vehicula neque nisi id quam. Proin sagittis pellentesque suscipit. Vivamus placerat vulputate nulla eget rutrum. Aenean ante dolor, eleifend id ex vitae, fermentum consequat ipsum. Integer turpis nisi, maximus vitae bibendum eleifend, vulputate nec elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In at scelerisque nisi. Sed lobortis nisl finibus feugiat posuere.</p>
+        <!--Placeholder text-->
+      </section>
+
+      <section id="If_Statements" class="main-section">
+        <header><h3>IF STATEMENTS</h3></header>
+        <p>If statements allow you to run specific section of code when a test
+            is true. The code inside the parentheses () is the test. If the test is
+            true then the code inside the block {} runs. If the test is not true,
+            the the code inside the block doesn't run.</p>
+        <pre>
+          <code>
+            var aNumber = 5;
+            if (aNumber === 5) {
+                drawBox(blue);
+            }
+            if (aNumber === 4) {
+                drawBox(red);
+            }
+          </code>
+        </pre>
+      </section>
+
+      <section id="Operators" class="main-section">
+        <header><h3>OPERATORS</h3></header>
+        <ol>
+          <li>Used Math Operators</li>
+          <li>Used a Logical Operators</li>
+        </ol>
+        <p>Vestibulum vitae ligula hendrerit, laoreet lorem bibendum, viverra mauris. Integer eu massa ac neque lobortis rutrum vitae sit amet metus. Vestibulum tempor ultrices mauris eu rhoncus. Nullam vitae libero euismod, egestas nunc non, feugiat urna. Ut sagittis, felis sit amet lacinia sagittis, lorem purus viverra eros, et placerat nunc nunc id ex. Proin laoreet leo vitae purus fermentum dignissim. Sed porta ante est, ac finibus libero suscipit nec. Vivamus nec massa cursus, pellentesque tortor facilisis, pharetra est. Proin augue ex, posuere a mauris nec, commodo mattis arcu.</p>
+        <p>Fusce a ipsum justo. Pellentesque mollis a ipsum vel dictum. Vivamus fermentum nulla erat, in elementum lorem hendrerit quis. Donec sed nulla nibh. Vivamus iaculis metus sed odio aliquet, sed volutpat urna porttitor. Vivamus bibendum tincidunt vehicula. Integer ultrices hendrerit velit a ultrices. Quisque vel erat vestibulum, ultrices ex eu, consectetur nisi. Nullam vitae massa libero. Nullam suscipit congue facilisis. Pellentesque sollicitudin facilisis fringilla. Morbi aliquam iaculis leo ac luctus. Curabitur tellus nibh, iaculis non congue ut, pulvinar non enim.</p>
+      </section>
+
+      <section id="Loops" class="main-section">
+        <header><h3>LOOPS</h3></header>
+        <ol>
+          <li>Use a for loop</li>
+          <li>Used a Classic For Loop</li>
+          <li>Used Nested for Loop</li>
+        </ol>
+        <p>A loop repeats the section of code within curly brackets {}. In
+    JavaScript, a for of loop goes through each element in an array or
+    string repeating the code for each element.</p>
+        <pre>
+          <code>
+            var groceries = [
+              'apples',
+              'yogurt',
+              'toothpaste'
+            ]
+            for (var element of groceries) {
+              print(element);
+            }
+          </code>
+        </pre>
+        <h3>USED A CLASSICAL FOR LOOP II</h3>
+        <p>In Javascript, a classic for loop repeats the same code inside the
+        block { } a specified number of times. It is defined in three parts. The
+        first part happens before the for loop starts and defines a looping
+        variable <code>(var i = 0;)</code>. The second part is a test that determines if the loop should keep repeating <code>(i &lt; 10;)</code>. And the third part updates the looping variable each time the loop repeats <code>(i = i + 1)</code>.</p>
+        <pre>
+            <code>
+              print('The loop will go as long as i is less than 10');
+              for (var i = 0; i &lt; 10; i = i + 1) {
+                  print(i);
+              }
+            </code>
+        </pre>
+      </section>
+
+      <section id="Objects" class="main-section">
+        <header><h3>OBJECTS</h3></header>
+        <p>Sed arcu lectus, pellentesque at dapibus vel, luctus id purus. Donec bibendum bibendum elit, vitae consequat dolor scelerisque ut. Etiam cursus libero non libero egestas, eget tempor ex vehicula. Donec bibendum ipsum facilisis cursus venenatis. Sed accumsan, tortor in tincidunt feugiat, nibh enim efficitur quam, ac euismod ipsum augue ut augue. Nunc et dui sit amet metus pretium ultricies. Cras posuere tempus magna, ac vehicula lorem pretium ac. Vestibulum et tortor erat. Quisque tincidunt leo arcu, in accumsan justo porttitor a. Morbi eu dolor consectetur, varius nisi et, imperdiet ante. Pellentesque porta consequat pellentesque. Integer porttitor, enim a commodo molestie, urna arcu malesuada lorem, quis gravida turpis tortor quis tortor. Donec eget justo volutpat, fermentum enim in, maximus magna.</p>
+      </section>
+  </main><!--
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+</body>
+</html>
