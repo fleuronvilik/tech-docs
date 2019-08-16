@@ -1,0 +1,94 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 10px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #343a40;
+  color: white;
+}
+
+nav header {font-size: 2.4rem; font-size: initial;}
+
+nav div {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 5%;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  background-color: #5e646b;
+  overflow: auto;
+}
+
+nav a {
+  display: block;
+  width: auto;
+  margin-right: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {color: #3f7bff;}
+
+nav header, main {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 200px;
+  font-size: 1.7rem;
+  color: #343a40;
+}
+
+h3 {color: #3f7bff;}
+
+pre {
+  overflow: auto;
+  background-color: #eeeef0;
+  background-color: lightgray;
+}
+
+@media(min-width: 992px) {
+  nav {
+    border-box: box-sizing;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+  }
+
+  nav header {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  nav div {
+    display: block;
+    padding: 0;
+    background-color: initial;
+  }
+
+  nav a {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
+    background-color: #5e646b;
+  }
+
+  main {
+    width: initial;
+    padding-top: 75px;
+    margin-left: 27%;
+  }
+}

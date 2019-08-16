@@ -5,26 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Fourth Responsive Web Destign Project">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Tech Docs</title>
-    <style>
-      pre {border: 1px solid black;}
-      @media (min-width: 992px) {
-        body {
-          display: grid;
-          grid-template-columns: 300px 1fr;
-          grid-column-gap: 10px;
-        }
-      }
-    </style>
   </head>
   <body>
-
-    <!--
-    <h1>An introduction to coding for beginners</h1>
-    <h2>With JavaScript</h2>
-    -->
-      <nav id="navbar">
-        <header><h1>An introduction to coding for beginners</h1></header>
+    <nav id="navbar">
+    <header><h1>JS for Absolute Beginners</h1></header>
+      <div>
         <a class="nav-link" href="#Introduction">INTRODUCTION</a>
         <a class="nav-link" href="#Variables">VARIABLES</a>
         <a class="nav-link" href="#Arrays">ARRAYS
@@ -32,20 +20,19 @@
         <a class="nav-link" href="#Operators">OPERATORS</a>
         <a class="nav-link" href="#Loops">LOOPS</a>
         <a class="nav-link" href="#Objects">OBJECTS</a>
-      </nav>
-      <main id="main-doc">
-      <section id="Introduction" class="main-section">
-        <header><h3>INTRODUCTION<h3></header>
-        <p>What is code ? What is coding ? What can JS do ? How we communicate
-        with computer, Writing instructions for a computer to follow, JS can
-        create website, analyse data, animate shape and create applications.</p>
-      </section>
+      </div>
+    </nav>
+    <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header><h3>INTRODUCTION<h3></header>
+      <p>What is code ? What is coding ? What can JS do ? How we communicate with computer, Writing instructions for a computer to follow, JS can create website, analyse data, animate shape and create applications.</p>
+    </section>
 
-      <section id="Variables" class="main-section">
-        <header><h3>VARIABLES</h3></header>
-        <p>Variables are very common in coding. They allow you to reference the same piece of information multiple times. In JavaScript variables can be defined using <code>var</code> then giving the variable a unique name. For example, <code>var myVariable = 'my example'</code>.</p>
-        <pre>
-          <code>
+    <section id="Variables" class="main-section">
+      <header><h3>VARIABLES</h3></header>
+      <p>Variables are very common in coding. They allow you to reference the same piece of information multiple times. In JavaScript variables can be defined using <code>var</code> then giving the variable a unique name. For example, <code>var myVariable = 'my example'</code>.</p>
+      <pre>
+        <code>
             var myExample;
             myExample = 'I created a variable';
             print(myExample);
@@ -136,7 +123,6 @@
         <header><h3>OBJECTS</h3></header>
         <p>Sed arcu lectus, pellentesque at dapibus vel, luctus id purus. Donec bibendum bibendum elit, vitae consequat dolor scelerisque ut. Etiam cursus libero non libero egestas, eget tempor ex vehicula. Donec bibendum ipsum facilisis cursus venenatis. Sed accumsan, tortor in tincidunt feugiat, nibh enim efficitur quam, ac euismod ipsum augue ut augue. Nunc et dui sit amet metus pretium ultricies. Cras posuere tempus magna, ac vehicula lorem pretium ac. Vestibulum et tortor erat. Quisque tincidunt leo arcu, in accumsan justo porttitor a. Morbi eu dolor consectetur, varius nisi et, imperdiet ante. Pellentesque porta consequat pellentesque. Integer porttitor, enim a commodo molestie, urna arcu malesuada lorem, quis gravida turpis tortor quis tortor. Donec eget justo volutpat, fermentum enim in, maximus magna.</p>
       </section>
-  </main><!--
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+  </main>
 </body>
 </html>
